@@ -17,6 +17,20 @@
   </dependencies>
   <build>
     <finalName>CubeGeneratorWeb</finalName>
+	
+	<plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-release-plugin</artifactId>
+            <version>x.y.z</version>
+            <configuration>
+                <goals>deploy</goals>
+                <autoversionsubmodules>true</autoversionsubmodules>
+            </configuration>
+        </plugin>
+    </plugins>
+	
+	
   </build>
 </project>
 
