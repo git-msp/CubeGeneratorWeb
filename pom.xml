@@ -20,6 +20,6 @@
   </build>
 </project>
 
-
+mvn release:clean release:prepare
 
 <!--Test 11 Feb 2016 commit check           Hello-->
