@@ -1,0 +1,1 @@
+curl -u admin:password -X PUT http://localhost:8080/artifactory/ext-snapshot-local/com/javatpoint/CubeGeneratorWeb/v1.0-SNAPSHOT/mahen.pom -data C:\Users\mahensin.ORADEV\.jenkins\workspace\CubeGeneratorWeb\mahen.pom -v
