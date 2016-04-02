@@ -20,12 +20,13 @@
   </build>
   
   <distributionManagement>
+  <!--
     <repository>
         <id>central</id>
         <name>MAHENSIN-LAP-releases</name>
         <url>http://localhost:8080/artifactory/ext-release-local</url>
     </repository>
-	
+	-->
 <snapshotRepository>
         <id>snapshots</id>
         <name>MAHENSIN-LAP-snapshots</name>
