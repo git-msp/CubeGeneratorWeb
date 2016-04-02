@@ -25,6 +25,14 @@
         <name>MAHENSIN-LAP-releases</name>
         <url>http://localhost:8080/artifactory/ext-release-local</url>
     </repository>
+	
+	 <repository>
+        <id>snapshots</id>
+          <name>plugins-snapshot</name>
+          <url>http://localhost:8080/artifactory/plugins-snapshot</url>
+    </repository>
+	
+	
 </distributionManagement>
 
 </project>
