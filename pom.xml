@@ -18,10 +18,14 @@
   <build>
     <finalName>CubeGeneratorWeb</finalName>
   </build>
+  
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>MAHENSIN-LAP-releases</name>
+        <url>http://localhost:8080/artifactory/ext-release-local</url>
+    </repository>
+</distributionManagement>
+
 </project>
-
-
-
-
-<!--Pradeep test-->
 
